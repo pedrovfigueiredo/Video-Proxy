@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InterfaceProxy</class>
+ <widget class="QMainWindow" name="InterfaceProxy">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1225</width>
+    <height>714</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>InterfaceProxy</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="Servidor">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Servidor</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IP_Servidor">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_servidor">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>50</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/play.png</normaloff>:/play.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IP_Cliente_1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>160</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Porta_Cliente_1">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>160</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Porta</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_cliente1">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>160</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/play.png</normaloff>:/play.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Cliente_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliente_1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IP_Cliente_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Cliente_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliente_2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IP_Cliente_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>280</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Cliente_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliente_3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IP_Cliente_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>340</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Cliente_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliente_4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IP_Cliente_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>400</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Cliente_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>370</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliente_5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_cliente1">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>160</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/stop.png</normaloff>:/stop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>15</width>
+      <height>15</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_cliente2">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>220</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/play.png</normaloff>:/play.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_cliente2">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>220</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/stop.png</normaloff>:/stop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>15</width>
+      <height>15</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_cliente3">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>280</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/play.png</normaloff>:/play.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_cliente3">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>280</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/stop.png</normaloff>:/stop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>15</width>
+      <height>15</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_cliente4">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>340</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/play.png</normaloff>:/play.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_cliente4">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>340</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/stop.png</normaloff>:/stop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>15</width>
+      <height>15</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_cliente5">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>400</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/play.png</normaloff>:/play.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_cliente5">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>400</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/stop.png</normaloff>:/stop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>15</width>
+      <height>15</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_cliente_1">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>160</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4k</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_cliente_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>220</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4k</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Porta_Cliente_2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>220</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Porta</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_cliente_3">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>280</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4k</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Porta_Cliente_3">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>280</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Porta</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_cliente_4">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>340</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4k</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Porta_Cliente_4">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>340</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Porta</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_cliente_5">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>400</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4k</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Porta_Cliente_5">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>400</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Porta</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Porta_Cliente_6">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>460</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Porta</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_cliente6">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>460</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/play.png</normaloff>:/play.png</iconset>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_cliente_6">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>460</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4k</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Cliente_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliente_6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IP_Cliente_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>460</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_cliente6">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>460</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/stop.png</normaloff>:/stop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>15</width>
+      <height>15</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Porta_Cliente_7">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>520</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Porta</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_cliente7">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>520</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/play.png</normaloff>:/play.png</iconset>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_cliente_7">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>520</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4k</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Cliente_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>490</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliente_7</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IP_Cliente_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>520</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_cliente7">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>520</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Images.qrc">
+      <normaloff>:/stop.png</normaloff>:/stop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>15</width>
+      <height>15</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Porta_Servidor">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>50</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Porta</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Servidor_IP">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_1_IP">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Servidor_Port">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>50</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_1_Port">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>160</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_2_IP">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>220</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_2_Port">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>220</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_3_IP">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>280</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_3_Port">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>280</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_4_IP">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>340</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_4_Port">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>340</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_5_IP">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>400</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_5_Port">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>400</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_6_IP">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>460</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_6_Port">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>460</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_7_IP">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>520</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Cliente_7_Port">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>520</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>350</y>
+      <width>261</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Images.qrc">:/video_icone.png</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1225</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
